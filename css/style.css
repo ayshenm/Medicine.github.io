@@ -1,0 +1,90 @@
+:root { --blue: #6bc1f1 }
+
+header{   background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/headerbg.jpg') 60%/cover}
+.bg-navbar-80 { background-color: #ffffffcc; }
+.bg-blue {background-color: var(--blue)}
+.clr-txt { color: var(--blue)}
+.bg-gray { background-color: #f1f1f1; }
+.vh-50 { min-height: 50vh; }
+.btn-hvr,.btn-hvr:hover{
+    transition: .4s;
+}
+
+#features1 { background: url('../img/features1.jpg') center/cover;}
+#features2 { background: url('../img/features2.jpg') center/cover;}
+
+#features1:hover, #features2:hover { opacity: 50%;transition: .4s; }
+#features1:hover h4, #features2:hover h4 { display: block!important; }
+
+.height{
+    width: 50px;
+    
+}
+.bg-darkblue{
+   background-color:#072035;
+}
+.bg-gray img{
+    opacity: 0.9;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bg-gray img:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* .carousel-indicators [data-bs-target]{
+    height: 70px !important;
+} */
+
+.carousel-control-prev, .carousel-control-next{
+    height: 40px !important;   
+}
+.carousel-indicators button:not(.bt-22){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+    /* opacity: 1; */ 
+} 
+
+/* @media only screen and (max-width: 768px) {
+   .bt-22{
+    margin-right: 50px;
+   }
+  } */
+.carousel-indicators button:not(.bt-22):hover{
+    transform: scale(1.1);
+    opacity: 1;
+} 
+.carousel-control-prev, .carousel-control-next{
+    position: initial !important;
+}
+ button.active{
+    transform: scale(1.1);
+}
+.vh-50 {
+    min-height: 35vh!important;
+}
+.carousel-inner{
+    overflow: visible;
+    padding-top: -90px;
+}
+.carousel-caption{
+    padding-bottom: 3.8rem;
+}
+.carousel-indicators {
+  margin: 0 !important;
+  width: 100% !important;   
+}
+
+.d-none {
+     display: block!important;
+}
+.carousel-indicators button:nth-child(2){background: url('../img/av1.jfif') no-repeat center/cover}
+.carousel-indicators button:nth-child(3){background: url('../img/av2.avif') no-repeat center/cover}
+.carousel-indicators button:nth-child(4){background: url('../img/av3.jpg') no-repeat center/cover}
+.carousel-indicators button:nth-child(5){background: url('../img/av4.avif') no-repeat center/cover}
+.carousel-indicators button:nth-child(6){background: url('../img/av5.avif') no-repeat center/cover}
